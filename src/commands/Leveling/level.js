@@ -21,7 +21,7 @@ export default {
                 .addChannelOption((option) =>
                     option
                         .setName('channel')
-                        .setDescription('Channel to send level-up notifications in')
+                        .setDescription('')
                         .addChannelTypes(ChannelType.GuildText)
                         .setRequired(true),
                 )
